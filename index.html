@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object JS</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <h1>library project</h1>
+        </div>
+        <div class="body">
+            <button class='new_book'>+ book</button>
+        </div>
+
+
+        <dialog>
+            <div class="modal_form">
+                <div class='prompt'>enter book details</div>
+                <div class="error-message"></div>
+                <form action="" id='questions' method='dialog'>
+                    <input type="text" id='title' placeholder="title" value = "">
+                    <input type="text" id='author' placeholder="author" value = "">
+                    <input type="number" id='num_pages' placeholder="number of pages" value = "">
+                    <label for="checkbox">Have you read it?</label>
+                    <input type="checkbox" id='checkbox'>
+                </form>
+                <button class="submit" type = 'submit' form='questions'>Submit</button>
+            </div>
+        </dialog>
+
+        <!-- used as a refernece when creating the JS and CSS -->
+        <div class="books-container">
+            <!-- <div class="book">
+                <div class="title"></div>
+                <div class="author"></div>
+                <div class="pages"></div>
+                <button class="read" data-color = ""></button>
+                <button class="toggle"></button>
+            </div> -->
+        </div>
+    </div>
+</body>
+
+</html>
